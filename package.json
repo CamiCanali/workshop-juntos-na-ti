@@ -1,0 +1,28 @@
+{
+  "name": "workshop-juntos-na-ti-front-end",
+  "version": "1.0.0",
+  "description": "Projeto apresentado no Workshop sobre Front End da Juntos na TI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node_modules/simple-server/bin/simple-server.js public 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/woliveiras/workshop-juntos-na-ti-front-end.git"
+  },
+  "author": {
+    "name": "William Oliveira",
+    "email": "williamozsouza@gmail.com",
+    "url": "https://www.woliveiras.com.br"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woliveiras/workshop-juntos-na-ti-front-end/issues"
+  },
+  "homepage": "https://github.com/woliveiras/workshop-juntos-na-ti-front-end",
+  "devDependencies": {},
+  "dependencies": {
+    "simple-server": "^1.0.1"
+  }
+}
