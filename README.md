@@ -1,6 +1,8 @@
 # workshop-juntos-na-ti-front-end
 
-Material apresentado no Workshop sobre Front End da [</> Juntos na TI](https://www.facebook.com/JuntosnaTI/)
+Material apresentado no Workshop sobre Front End da [</> Juntos na TI](https://www.facebook.com/JuntosnaTI/).
+
+O projeto pode ser visto "em produção" [nesse link](https://woliveiras.com.br/workshop-juntos-na-ti-front-end/) e a ideia é apresentar HTML e CSS para pessoas que nunca viram desenvolvimento de software.
 
 ## Instalação e execução do projeto localmente
 
