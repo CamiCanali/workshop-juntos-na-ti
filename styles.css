@@ -11,6 +11,11 @@ html {
   font-size: 14px;
 }
 
+body {
+  max-width: 580px;
+  margin: 0 auto;
+}
+
 /* HEADER */
 header {
   height: 45px;
