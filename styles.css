@@ -161,7 +161,7 @@ header {
   color: #999;
   letter-spacing: .2px;
   text-transform: uppercase;
-  padding: 0 10px;
+  padding: 10px;
 }
 
 /* USERS COMMENTS */
@@ -169,11 +169,10 @@ header {
 .users-comments {
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 10px;
 }
 
 .users-comments li {
-  margin-bottom: 10px
+  margin-top: 10px
 }
 
 .users-comments p {
