@@ -13,10 +13,8 @@ html {
 
 /* HEADER */
 header {
-  width: 100%;
   height: 45px;
   background: #fafafa;
-  position: relative;
   display: flex;
   align-items: center; 
 }
@@ -61,7 +59,6 @@ header {
 /* MAIN CONTENT */
 /* IMAGE-BOX */
 .image-box {
-  /* width: 100%; */
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -112,6 +109,12 @@ header {
   display: block;
 }
 
+.image-box-view-count {
+  width: 100%;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
 .image-box-user-info {
   display: flex;
   align-items: center;
@@ -151,4 +154,37 @@ header {
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.image-box-date {
+  font-size: 10px;
+  color: #999;
+  letter-spacing: .2px;
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+
+/* USERS COMMENTS */
+
+.users-comments {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.users-comments li {
+  margin-bottom: 10px
+}
+
+.users-comments p {
+  display: inline;
+}
+
+.users-comments-username {
+  font-weight: 600;
+}
+
+.users-comments-hashtag {
+  padding-left: 5px;
+  text-transform: lowercase;
 }
