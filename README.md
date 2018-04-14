@@ -1,4 +1,4 @@
-# workshop-juntos-na-ti-front-end
+# workshop-juntos-na-ti
 
 Página do [**Juntos na TI no Facebook**](https://www.facebook.com/JuntosnaTI/) para você seguir, caso ainda não tenha feito.
 
