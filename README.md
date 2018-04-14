@@ -1,10 +1,36 @@
 # workshop-juntos-na-ti-front-end
 
-Material apresentado no Workshop sobre Front End da [</> Juntos na TI](https://www.facebook.com/JuntosnaTI/).
+Página do [**Juntos na TI no Facebook**](https://www.facebook.com/JuntosnaTI/) para você seguir, caso ainda não tenha feito.
 
-O projeto pode ser visto "em produção" [nesse link](https://woliveiras.com.br/workshop-juntos-na-ti-front-end/) e a ideia é apresentar HTML e CSS para pessoas que nunca viram desenvolvimento de software.
+Este workshop é para pessoas que têm pouca ou nenhuma experiência com HTML e CSS.
 
-## Instalação e execução do projeto localmente
+Vamos brincar de Master Chef? Então, mãos à "massa"!!!
+
+## Instalação e configuração do ambiente local
+
+Se você tem Windows e não possui o Git instalado, clicar no link:
+[Download GIT](https://git-scm.com/download/win)
+
+##### Passo 1: configuração do GitHub
+
+Após o download, abrir o terminal do seu computador e inserir:
+
+```
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+```
+
+##### Passo 2: Clone do repositório do github
+
+- Abra o terminal de seu computador
+- [Repositório Github](https://github.com/CamiCanali/workshop-juntos-na-ti)
+- Acessando o link disponibilizado, faça o clone do repositório. Exemplo no código abaixo:
+
+```
+git clone https://github.com/CamiCanali/workshop-juntos-na-ti.git
+```
+
+##### Passo 3:
 
 **Requisitos**
 
@@ -13,13 +39,16 @@ O projeto pode ser visto "em produção" [nesse link](https://woliveiras.com.br/
 Após instalados os requisitos, execute o seguinte comando para instalar as dependências do projeto:
 
 ```
-npm install
+npm install -g http-server
 ```
 
 Para rodar o servidor local, utilize o comando:
 
 ```
-npm run serve
+http-server
 ```
 
-O site estará disponível na URL: `http://localhost:3000/index.html`
+```
+http://localhost:8080
+```
+
