@@ -48,7 +48,9 @@ Para rodar o servidor local, utilize o comando:
 http-server
 ```
 
+Abrir o link no seu navegador preferido
+
 ```
-http://localhost:8080
+http://127.0.0.1:8080
 ```
 
